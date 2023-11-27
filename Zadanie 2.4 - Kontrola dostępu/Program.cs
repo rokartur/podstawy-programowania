@@ -21,7 +21,8 @@
             else if (answer.ToLower() == "n")
             {
                 Console.WriteLine("Access denied");
-            } else
+            }
+            else
             {
                 Console.WriteLine("Wrong answer");
             }

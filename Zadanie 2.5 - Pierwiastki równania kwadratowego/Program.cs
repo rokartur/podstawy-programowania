@@ -20,11 +20,13 @@
             double x2 = (-b + deltaRoot) / (2 * a);
             Console.WriteLine($"x1 = {x1}");
             Console.WriteLine($"x2 = {x2}");
-        } else if (deltaRoot == 0)
+        }
+        else if (deltaRoot == 0)
         {
             double x = -b / (2 * a);
             Console.WriteLine($"x = {x}");
-        } else
+        }
+        else
         {
             Console.WriteLine("No solution");
         }
