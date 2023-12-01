@@ -1,35 +1,38 @@
 ﻿class Program
 {
-    static void Main(string[] args)
+    private static void Main()
     {
         Console.WriteLine("Enter your age:");
-        int age = Convert.ToInt32(Console.ReadLine());
+        var age = Convert.ToInt32(Console.ReadLine());
 
-        if (age >= 18)
+        switch (age)
         {
-            Console.WriteLine("Access granted");
-        }
-        else if (age >= 15)
-        {
-            Console.WriteLine("Do you have parental consent? (y/n)");
-            string answer = Console.ReadLine();
-
-            if (answer.ToLower() == "y")
-            {
+            case >= 18:
                 Console.WriteLine("Access granted");
-            }
-            else if (answer.ToLower() == "n")
+                break;
+            case >= 15:
             {
+                Console.WriteLine("Do you have parental consent? (y/n)");
+                var answer = Console.ReadLine();
+
+                switch (answer?.ToLower())
+                {
+                    case "y":
+                        Console.WriteLine("Access granted");
+                        break;
+                    case "n":
+                        Console.WriteLine("Access denied");
+                        break;
+                    default:
+                        Console.WriteLine("Wrong answer");
+                        break;
+                }
+
+                break;
+            }
+            default:
                 Console.WriteLine("Access denied");
-            }
-            else
-            {
-                Console.WriteLine("Wrong answer");
-            }
-        }
-        else
-        {
-            Console.WriteLine("Access denied");
+                break;
         }
     }
 }

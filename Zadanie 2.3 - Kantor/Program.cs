@@ -1,25 +1,25 @@
 ﻿class Program
 {
-    static void Main(string[] args)
+    private static void Main()
     {
-        const double EUR = 1.08, CHF = 1.12, GBP = 1.14, USD = 3.99;
+        const double eur = 1.08, chf = 1.12, gbp = 1.14, usd = 3.99;
 
         Console.WriteLine("Enter amount of PLN: ");
-        double PLN = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine($"Select currency: \n1. EUR ({EUR})\n2. CHF ({CHF})\n3. GBP ({GBP})");
-        int choice = Convert.ToInt32(Console.ReadLine());
-        PLN /= USD;
+        var pln = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine($"Select currency: \n1. EUR ({eur})\n2. CHF ({chf})\n3. GBP ({gbp})");
+        var choice = Convert.ToInt32(Console.ReadLine());
+        pln /= usd;
 
         switch (choice)
         {
             case 1:
-                Console.WriteLine($"You will get {PLN * EUR} EUR");
+                Console.WriteLine($"You will get {pln * eur} EUR");
                 break;
             case 2:
-                Console.WriteLine($"You will get {PLN * CHF} CHF");
+                Console.WriteLine($"You will get {pln * chf} CHF");
                 break;
             case 3:
-                Console.WriteLine($"You will get {PLN * GBP} GBP");
+                Console.WriteLine($"You will get {pln * gbp} GBP");
                 break;
             default:
                 Console.WriteLine("Wrong choice");
