@@ -12,10 +12,8 @@
         {
             var x = rand.NextDouble() * 2.0 - 1.0;
             var y = rand.NextDouble() * 2.0 - 1.0;
-
-            if (x * x + y * y <= r * r)
-                circlePoints++;
-
+            
+            if (x * x + y * y <= r * r) circlePoints++;
             squarePoints++;
         }
 
@@ -23,6 +21,6 @@
         var stop = Environment.TickCount;
 
         Console.WriteLine($"Estimated Pi = {pi}");
-        Console.WriteLine($"Elapsed time = {stop - start} ms");
+        Console.WriteLine($"Elapsed time = {stop - start}ms");
     }
 }
