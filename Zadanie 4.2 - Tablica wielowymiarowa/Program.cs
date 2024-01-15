@@ -31,6 +31,6 @@
             Console.WriteLine();
         }
 
-        Console.WriteLine("Sum of diagonal elements: " + sum);
+        Console.WriteLine($"Sum of diagonal elements: {sum}");
     }
 }
