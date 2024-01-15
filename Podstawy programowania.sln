@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 4.2 - Tablica wielo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 4.3 - Przełączanie się pomiędzy elementami kolekcji", "Zadanie 4.3 - Przełączanie się pomiędzy elementami kolekcji\Zadanie 4.3 - Przełączanie się pomiędzy elementami kolekcji.csproj", "{63E1F391-E2A8-4C7D-BB6D-01A0876D207B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 4.4 - ArrayList", "Zadanie 4.4 - ArrayList\Zadanie 4.4 - ArrayList.csproj", "{5924E81D-A4E0-4601-9468-28A72BE46FCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{63E1F391-E2A8-4C7D-BB6D-01A0876D207B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63E1F391-E2A8-4C7D-BB6D-01A0876D207B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63E1F391-E2A8-4C7D-BB6D-01A0876D207B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5924E81D-A4E0-4601-9468-28A72BE46FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5924E81D-A4E0-4601-9468-28A72BE46FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5924E81D-A4E0-4601-9468-28A72BE46FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5924E81D-A4E0-4601-9468-28A72BE46FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
