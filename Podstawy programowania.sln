@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 4.3 - Przełączani
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 4.4 - ArrayList", "Zadanie 4.4 - ArrayList\Zadanie 4.4 - ArrayList.csproj", "{5924E81D-A4E0-4601-9468-28A72BE46FCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie 4.5 - Dodawanie macierzy", "Zadanie 4.5 - Dodawanie macierzy\Zadanie 4.5 - Dodawanie macierzy.csproj", "{5A9F17A5-A851-4F5B-B9BA-15F34AABA252}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{5924E81D-A4E0-4601-9468-28A72BE46FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5924E81D-A4E0-4601-9468-28A72BE46FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5924E81D-A4E0-4601-9468-28A72BE46FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9F17A5-A851-4F5B-B9BA-15F34AABA252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9F17A5-A851-4F5B-B9BA-15F34AABA252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9F17A5-A851-4F5B-B9BA-15F34AABA252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9F17A5-A851-4F5B-B9BA-15F34AABA252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
