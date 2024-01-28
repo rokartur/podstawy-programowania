@@ -8,7 +8,7 @@
         Console.Write("Podaj nazwisko autora: ");
         var authorSurname = Console.ReadLine();
 
-        const string filePath = "./library.txt";
+        const string filePath = "library.txt";
 
         File.WriteAllText(filePath, $"{bookTitle}\n{authorSurname}");
 
