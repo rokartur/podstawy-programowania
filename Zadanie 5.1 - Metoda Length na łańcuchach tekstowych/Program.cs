@@ -8,9 +8,6 @@
         Console.Write("Podaj nazwę województwa: ");
         var region = Console.ReadLine();
 
-        var cityLength = city?.Length;
-        var regionLength = region?.Length;
-
-        Console.WriteLine($"Nazwa miasta {city} zawiera {cityLength} liter. Nazwa województwa {region} zawiera {regionLength} liter.");
+        Console.WriteLine($"Nazwa miasta {city} zawiera {city?.Length} liter. Nazwa województwa {region} zawiera {region?.Length} liter.");
     }
 }
