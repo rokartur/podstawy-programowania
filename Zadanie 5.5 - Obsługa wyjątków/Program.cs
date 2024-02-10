@@ -35,7 +35,7 @@
         }
         catch (FileNotFoundException)
         {
-            Console.WriteLine("Plik dane.txt nie istnieje.");
+            Console.WriteLine($"Plik {filePath} nie istnieje.");
         }
     }
 }
